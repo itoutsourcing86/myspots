@@ -1,0 +1,63 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#map {
+        position:absolute;
+        top:40px;
+        bottom:0;
+        width:100%;
+}
+
+.mapbox-logo {
+    display: none !important;
+}
+
+.navbar-static-top .container, .navbar-fixed-top .container-fluid, .navbar-fixed-bottom .container {
+	width: 940px;
+}
+
+.navbar .container-fluid .navbar-header .navbar-brand {
+	font-size: 25px;
+	font-family: 'Norican', serif;
+	font-weight: bold;
+	color: white;
+}
+
+.modal-title {
+    font-size: 24.5px;
+    font-weight: bold;
+}
+
+.modal-body h4 {
+    font-style: italic;
+}
+
+textarea {
+    resize: none;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background:#222222;
+  color:#fff;
+  font-size:16px;
+  line-height:24px;
+  opacity: 0.9;
+  }
+.custom-popup .leaflet-popup-content-wrapper a {
+  color:rgba(255,255,255,0.5);
+  }
+.custom-popup .leaflet-popup-tip-container {
+  width:30px;
+  height:15px;
+  }
+
+.leaflet-popup-tip {
+    display: none !important;
+}
+
+.leaflet-popup-close-button {
+    z-index: 1;
+}
